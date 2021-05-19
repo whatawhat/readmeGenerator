@@ -46,7 +46,7 @@ const questions = [
         type: 'list',
         message: 'What license did you use?',
         name: 'license',
-        choices: ['license 1', 'license 2', 'license 3'],
+        choices: ['Apache', 'Boost', 'BSD 3', 'BSD 2', 'CCO', 'Eclipse', 'GNU', 'IBM', 'ISC', 'MIT', 'Mozilla', 'BY', 'ODbL', 'PDDL', 'Perl', 'SIL', 'Unlicense', 'WTFPL', 'Zlib'],
     },
     {
         type: 'input',
