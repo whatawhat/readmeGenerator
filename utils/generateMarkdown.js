@@ -41,7 +41,7 @@ function generateMarkdown(data) {
   return `# ${data.title}
   # Table of Contents
   * [Description](#description)
-  * [Installation](#Installation-Instruction)
+  * [Installation Instructions](#Installation-Instructions)
   * [Usage](#usage)
   ${renderLicenseLink(data.license)}
   * [Contributors](#contributors)
@@ -50,7 +50,7 @@ function generateMarkdown(data) {
 
   # Description
   ${data.description}
-  # Installation Instruction
+  # Installation Instructions
   ${data.installation}
   # Usage
   ${data.usage}
