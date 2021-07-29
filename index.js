@@ -31,11 +31,11 @@ const questions = [
         message: 'Please write how to install your application.',
         name: 'installation',
     },
-    {
-        type: 'input',
-        message: 'What is your email address?',
-        name: 'table of contents',
-    },
+    // {
+    //     type: 'input',
+    //     message: 'What is your email address?',
+    //     name: 'table of contents',
+    // },
     {
         type: 'input',
         message: 'Please write about usage.',
@@ -46,7 +46,7 @@ const questions = [
         type: 'list',
         message: 'What license did you use?',
         name: 'license',
-        choices: ['Apache 202.0', 'Boost 201.0', 'BSD 3', 'BSD 2', 'CCO', 'Eclipse', 'GNU', 'IBM', 'ISC', 'MIT', 'Mozilla', 'BY', 'ODbL', 'PDDL', 'Perl', 'SIL', 'Unlicense', 'WTFPL', 'Zlib'],
+        choices: ['Apache 2.0', 'Boost', 'Eclipse', 'GNU AGPLv3', 'none'],
     },
     {
         type: 'input',
