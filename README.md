@@ -1,27 +1,31 @@
-# Hellow
-  # Table of Contents
-  * [Description](#description)
-  * [Installation](#Installation-Instruction)
-  * [Usage](#usage)
-  * [License](#license)
-  * [Contributors](#contributors)
-  * [Tests](#tests)
-  * [Questions](#questions)
+# README Generator
+### Table of Contents
+- [Description](#Description)
+- [Video Link](#video-link)
+- [How to Use](#how-to-use)
+- [Sources](#sources)
 
-  # Description
-  nothing
-  # Installation Instruction
-  none
-  # Usage
-  none
-  # License
-  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-  # Contributors
-  me
-  # Tests
-  none
-  # Questions
-  If you have any questions, please contact me.
-  Github: [what](http://github.com/what)
-  Email: [what@gmail.com](mailto:what@gmail.com)
-  
+## Description
+This is an application that allows the user to input data for their README file for their application and generates it
+
+## Video Link
+Here is a link to view how the application works. It walks your through how to run it from the terminal and the questions.
+[Link to Video Walkthrough](https://drive.google.com/file/d/1k7xhA7Dab7qMExzPpMknTHIyW6MPzYNu/view)
+
+## How to Use
+Install the necessary NPM packages to run the program. You will need inquirer. 
+```bash
+npm install inquirer
+```
+
+After you install the NPM packages, open the terminal and run 
+```bash
+node index.js
+```
+
+Input all data for your README. Once you answer the last question, a README file is generated. 
+
+## Sources
+Created and designed by me. Click [whatawhat](www.github.com/whatawhat) to visit my repository.
+
+
